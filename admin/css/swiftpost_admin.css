@@ -1,0 +1,543 @@
+/** Swift Impressions Dashboard Styles **/
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?l0l4ku');
+    src:    url('fonts/icomoon.eot?l0l4ku#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?l0l4ku') format('truetype'),
+        url('fonts/icomoon.woff?l0l4ku') format('woff'),
+        url('fonts/icomoon.svg?l0l4ku#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="swifticon-"], [class*=" swifticon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bird:before {
+    content: "\e900";
+}
+
+
+#adminmenu #toplevel_page_swiftpost div.wp-menu-image::before {
+	 /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e900";
+}
+
+
+.swift-tooltip{
+    display: inline;
+    position: relative;
+}
+
+.swift-tooltip:hover:after{
+	background: #fff;
+	border-radius: 5px;
+	bottom: 40px;
+	color: #888;
+	content: attr(title);
+	right: -40%;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+	min-width: 120px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+}
+
+.swift-tooltip:hover:before{
+    border: solid;
+	border-color: #ccc transparent;
+	border-width: 8px 8px 0 8px;
+	bottom: 32px;
+	content: "";
+	left: 50%;
+	position: absolute;
+	z-index: 99;
+}
+
+.notice-debug {
+    border-color: #d54e21;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+#swiftpost_pp_edit .swiftpost-meta-section, #swiftpost-admin-block-fw  .swiftpost-meta-section {
+    max-width: 250px;
+    float: left;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#swiftpost-meta-general label {
+	display: inline-block;
+	width: 120px;
+}
+
+#swiftpost-meta-general input {
+	display: inline-block;
+	width: 100px;
+}
+
+#swiftpost-meta-pp-fc-section input.swiftpost-fc-shorttext {
+	width: 30px;
+	display: inline-block;
+}
+
+#swiftpost_pp_edit .xremove, #swiftpost-admin-block-fw  .xremove {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 2px 5px 2px;
+    line-height: 12px;
+    font-size: 12px;
+    margin: 0px 0 0 4px;
+    display: inline-block;
+    background-color: #aaa;
+    color: #fff;
+}
+#swiftpost_pp_edit.ab-page,  #swiftpost-admin-block-fww.ab-page {
+	padding: 30px;
+}
+
+#swiftpost_pp_edit #swiftpost_gt_selections .swiftpost-geo-target-link,  #swiftpost-admin-block-fw #swiftpost_gt_selections .swiftpost-geo-target-link {
+    border-radius: 12px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    padding: 3px 5px;
+    background-color: #f1f1f1;
+    max-width: 237px;
+    display: inline-block;
+    word-wrap: normal;
+    color: #555;
+    cursor: pointer;
+}
+#swiftpost_pp_edit #swiftpost_gt_selections .swiftpost-geo-target-link:hover,  #swiftpost-admin-block-fw  #swiftpost_gt_selections .swiftpost-geo-target-link:hover {
+    background-color: #fafafa;	
+}
+
+#swiftpost_pp_edit #swiftpost_gt_selections p,  #swiftpost-admin-block-fw #swiftpost_gt_selections p {
+    margin: 12px 0 0 0;
+}
+
+.swift-info-box {
+    background: #fff;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+}
+.swift-info-box table {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-spacing: 0;
+}
+
+.swift-info-box td.sidebar {
+    width: 20px;
+    text-align: center;
+    background: #777;
+    color: #eee;
+    margin: 0;
+	padding: 0 10px;
+}
+.swift-info-box td.swift-box-body {
+	padding-left: 20px;
+}
+/*Swift Post Page*/
+#swiftpost-admin-block {
+	
+}
+
+#swiftpost-admin-block .si-admin-post-row  {
+	background: #fefefe;
+	padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+#swiftpost-admin-block .si-admin-post-row .pp-stats {
+
+}
+#swiftpost-admin-block .si-admin-post-row .pp-title {
+	font-size: 20px;
+    color: #888;
+     margin: 0 0 10px;
+}
+
+#swiftpost-admin-block .si-admin-post-row .pp-title span {
+	
+}
+
+
+#swiftpost-admin-block .si-admin-post-row .stats {
+	font-size: 18px;
+}
+
+#swiftpost-admin-block .si-admin-post-row .pp-stats .pp-stat {
+float: left;
+    float: left;
+    background: #aaa;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 20px;
+    min-width: 133px;
+    text-align: center;}
+
+#swiftpost-admin-block .si-admin-post-row .pp-stats .pp-stat span {
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	margin: 10px;
+}
+
+#swiftpost-admin-block .si-admin-post-row .pp-stats  .pp-run {
+	background: transparent;
+    font-size: 20px;
+    float: left;
+    height: 50px;
+    line-height: 80px;
+    color: #666;
+}
+
+#swiftpost-admin-block a {
+	    font-size: 13px;
+}
+
+
+#swiftpost-admin-block .page-nav a {
+    font-size: 30px;
+    color: #999;
+    text-decoration: none;
+}
+#swiftpost-admin-block .page-nav a:hover  {
+    text-decoration: underline;
+    color: #666;
+}
+
+table.swiftadmin {
+	width: 80%;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+
+table.swiftadmin tbody tr:nth-of-type(2n) {background-color: #e0e0e0;}
+
+table.swiftadmin th {background-color:#aaa;padding: 5px 10px;font-weight:bold;color:#fff;}
+
+table.swiftadmin tbody tr td {padding: 5px 10px;text-align: center;}
+
+table.swiftadmin tbody tr td:nth-of-type(1) {font-weight: bold;text-align: left;}
+
+@media screen and (max-width: 600px) {
+	table.swiftadmin {width:100%;}
+	table.swiftadmin thead {display: none;}
+	table.swiftadmin tr:nth-of-type(2n) {background-color: inherit;}
+	table.swiftadmin tr:nth-of-type(2n) {background-color: inherit;}
+	table.swiftadmin tr td:first-child {background: #f0f0f0; font-weight:bold;font-size:1.3em;}
+	table.swiftadmin tbody td {display: block;  text-align:center;}
+	table.swiftadmin tbody td:before { 
+	    content: attr(data-th); 
+	    display: block;
+	    text-align:center;  
+	  }
+}
+
+
+/**   New Admin Interface
+
+    orange: #bf6321
+    green: #21bf46
+    yellow: #bdbf21
+    yellow brigh: #e6e828
+    purple:  #ad21bf
+    red: #bf212e
+    
+**/
+
+.swift-admin-logo-bar {
+	background-color: #fff;
+	padding: 20px;
+	height: 70px;
+	margin: 20px 20px 30px 8px;
+}
+.swift-admin-logo {
+	width: 215px;
+	height: 100%;
+	background: url(../../images/logo.svg) no-repeat center center;
+	background-size: cover;
+	display: inline-block;
+	float: left;
+	margin-right: 25px;
+}
+.swift-admin-title-buttons {
+	display: inline-block;
+	float: right;
+	margin: 25px;
+}
+
+.swift-btn-rainbow, #swiftpost-admin-block  button {
+	color: #0b5780;
+	background-color: transparent;
+	border-radius: 5px;
+	border-left: 3px solid #8e5ad1;
+	border-right: 3px solid #64ccf5;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-position: 0 0, 0 100%;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 3px;
+	-moz-background-size: 100% 3px;
+	background-size: 100% 3px;
+	background-image: -webkit-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%), -webkit-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%);
+	background-image: -moz-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%), -moz-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%);
+	background-image: -o-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%), -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+	background-image: linear-gradient(to right, #8e5ad1 0%, #64ccf5 100%), linear-gradient(to right, #8e5ad1 0%, #64ccf5 100%);
+	box-shadow: none;
+	text-shadow: none;
+	margin-bottom: .45em ! important;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #8e5ad1;
+	margin: 20px 5px;
+	border-top:  1px solid transparent;
+	border-bottom:  1px solid transparent;
+	cursor: pointer;
+
+}
+.swift-btn-rainbow:hover, #swiftpost-admin-block  button:hover {
+	background-image: linear-gradient( to right, #8e5ad1, #64ccf5 60% );
+	background-color: transparent;
+	background-size: 100% 100%;
+	border-top: 1px solid #64ccf5;
+	border-bottom: 1px solid #64ccf5;
+	border-left: 3px solid #8e5ad1;
+	border-right: 3px solid #64ccf5;
+	box-shadow: none;
+	text-shadow: none;
+	color: #fff;
+}
+.swift-admin-red.btn {
+	background: #bf212e;
+	border-radius: 4px;
+	color: #fff;
+}
+.swift-admin-green.btn {
+	background: #21bf46;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.swift-admin-box-title-bar {
+	border-bottom: 1px solid #888;
+	padding: 10px;
+	margin: 0 0 10px 0;
+}
+
+.swift-admin-box-title {
+	font-size: 2.4em;
+	font-weight: 300;
+	color:#888;
+	float: left;
+}
+
+.swift-admin-box-title-bar .btn {
+	height: 100%;
+	display: inline-block;
+	float: right;
+	margin: 0 5px 0;
+	padding: 5px 15px;
+	font-size: 1.3em;
+}
+
+.swift-admin-box {
+	float: left;
+	width: 40%;
+	min-width: 430px;
+	background: #fff;
+	padding: 20px;
+	margin: 20px;	
+}
+.swift-admin-box-fw {
+	min-width: 300px;
+	background: #fff;
+	padding: 20px;
+	margin: 0 20px 30px 8px;
+}
+.swift-admin-box-tabs {
+	min-width: 300px;
+	background: #fff;
+	padding: 30px;
+	margin: 0 20px 30px 8px;	
+}
+
+.swift-admin-wrap .nav-tab-wrapper {
+	margin-bottom: 0;
+}
+.swift-admin-wrap  .nav-tab-active,.swift-admin-wrap  .nav-tab-active:hover {
+	background: #fff;
+	border-bottom-color: #fff;
+}
+.swift-admin-wrap  .swift-admin-box-tabs td, .swift-admin-wrap  .swift-admin-box-tabs th {
+	border:1px solid #ddd;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+}
+.swift-admin-wrap  .swift-admin-box-tabs th {
+	background: #ddd;
+}
+
+.swift-admin-box label {
+	font-weight: 600;
+	min-width: 150px;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1199px) {
+	.swift-admin-box {
+		width: 90%;
+		min-width: 300px;
+	}
+}
+
+.swift-post-report-title {
+	float: left;
+	font-size: 1.6em;
+	line-height: 1.6em;
+	padding: 20px 0 0;
+}
+
+.swift-post-report-buttons {
+	float: right;	
+}
+.swift-post-report-buttons a {
+	display: inline-block;
+}
+
+.swift-stat-table {
+	width: 100%;
+}
+.swift-admin-box-inner {
+
+}
+
+	
+.swiftpost-ab-test-item {
+	border: 1px solid #777;
+	padding: 40px;
+	border-radius: 20px;
+	margin: 20px 20px;
+}
+
+.swiftpost-ab-test-item .swiftpost-abtest-info {
+	float: left;
+}
+
+.swiftpost-ab-test-item .swiftpost-abtest-buttons {
+	float: right;
+}
+
+.swiftpost-ab-test-item table td {
+	border: 1px solid #ccc;
+}
+	
+	
+.swift-admin-wrap .swift-admin-box-tabs td, .swift-admin-wrap .swift-admin-box-tabs th	{
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin: 0;
+	text-align: center;	
+}
+
+#swiftpost-popup {
+   display: none;
+    padding: 15px;
+    position: fixed;
+    z-index: 999999;
+    width: 98%;
+    max-width: 700px;
+    background: #39414d;
+    border-radius: 10px;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+   	color: #fff;
+	overflow: scroll;
+	height: 440px;
+}	
+.swiftpost-form-box header,.swiftpost-form-box .swiftpost-form-header {
+    padding: 1.25em 1.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+.swiftpost-form-box header h3,.swiftpost-form-box header h4,.swiftpost-form-box .swiftpost-form-header h3,.swiftpost-form-box .swiftpost-form-header h4 {
+    margin: 0;
+}
+
+.swiftpost-form-box .swiftpost-form-body {
+    padding: 2em 1.5em;
+}
+
+.swiftpost-form-box footer,.swiftpost-form-box .swiftpost-form-footer {
+    border-top: none;
+    background: transparent;
+    text-align: center;
+}
+
+.swiftpost-form-overlay {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999998;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,1) !important;
+}
+
+
+.swiftpost-form-box.scroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.swiftpost-form-box.scroll::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.swiftpost-form-box.scroll::-webkit-scrollbar-thumb:vertical {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: #39414d;
+}
+
+.swiftpost-form-box.scroll::-webkit-scrollbar-track:vertical { 
+    background-color: #fff; 
+    border-radius: 8px; 
+} 

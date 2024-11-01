@@ -1,0 +1,65 @@
+
+/** Swift Post Template Side Image **/
+.swiftpost-teaser-sideimg .entry-thumb {
+    position: relative;
+    float: left;
+    margin-right: 25px;
+    width: 35%;
+}
+.swiftpost-teaser-sideimg .entry-content {
+    float: left;
+    width: 60%;
+    margin: 0;
+    padding: 0px;
+    font-size: 14px;
+}
+.swiftpost-teaser-sideimg .entry-content h4.entry-title {
+    margin: 5px 0;
+}
+
+@media only screen and (max-width: 1163px) and (min-width: 1024px) {
+	.swiftpost-teaser-sideimg .entry-thumb {
+	    margin-right: 15px;
+	    width: 40%;
+	}
+	.swiftpost-teaser-sideimg .entry-content {
+	    width: 55%;
+	}
+}
+
+@media only screen and (max-width: 979px) and (min-width: 800px) {
+	.swiftpost-teaser-sideimg .entry-thumb {
+	    margin-right: 0px;
+	    width: 100%;
+	    margin-bottom: 15px;
+	}
+	.swiftpost-teaser-sideimg.entry-content {
+	    width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 640px) {
+	.swiftpost-teaser-sideimg .entry-thumb  {
+	    margin-right: 15px;
+	    width: 50%;
+	}
+	.swiftpost-teaser-sideimg .entry-content {
+	    width: 45%;
+	}
+}
+
+@media only screen and (max-width: 639px)  {
+	.swiftpost-teaser-sideimg .entry-thumb  {
+	    margin-right: 0px;
+	    width: 100%;
+	    margin-bottom: 15px;
+	}
+	.swiftpost-teaser-sideimg.entry-content {
+	    width: 100%;
+	}
+}
+
+/* Swift Post mark when logged in */
+.swift-post-fill {
+    background: url("../images/bird.svg") no-repeat top right/ 40px;
+}

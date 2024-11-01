@@ -1,0 +1,48 @@
+.swiftad-notices{
+	margin: 10px;
+	padding-top: 110px;
+	background: url(../../images/logo.png) no-repeat 20px center #fff;
+}
+
+.button {
+	color: #0b5780;
+	background-color: transparent;
+	border-radius: 5px;
+	border-left: 3px solid #8e5ad1;
+	border-right: 3px solid #64ccf5;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-position: 0 0, 0 100%;
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 3px;
+	-moz-background-size: 100% 3px;
+	background-size: 100% 3px;
+	background-image: -webkit-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%), -webkit-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%);
+	background-image: -moz-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%), -moz-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%);
+	background-image: -o-linear-gradient(left, #8e5ad1 0%, #64ccf5 100%), -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+	background-image: linear-gradient(to right, #8e5ad1 0%, #64ccf5 100%), linear-gradient(to right, #8e5ad1 0%, #64ccf5 100%);
+	box-shadow: none;
+	text-shadow: none;
+	margin-bottom: .45em ! important;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #8e5ad1;
+	margin: 20px 5px;
+	border-top:  1px solid transparent;
+	border-bottom:  1px solid transparent;
+	cursor: pointer;
+
+}
+.button:hover {
+	background-image: linear-gradient( to right, #8e5ad1, #64ccf5 60% );
+	background-color: transparent;
+	background-size: 100% 100%;
+	border-top: 1px solid #64ccf5;
+	border-bottom: 1px solid #64ccf5;
+	border-left: 3px solid #8e5ad1;
+	border-right: 3px solid #64ccf5;
+	box-shadow: none;
+	text-shadow: none;
+	color: #fff;
+}

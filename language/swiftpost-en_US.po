@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SwiftPost\n"
+"POT-Creation-Date: 2016-08-08 12:20-0600\n"
+"PO-Revision-Date: 2016-08-08 12:21-0600\n"
+"Last-Translator: Richrd Alva <rich@seffect.com>\n"
+"Language-Team: Richrd Alva <rich@seffect.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: swiftpost.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/swiftpost_admin_functions.php:46
+msgid ""
+"There was a problem verifing the Swift Post plugin license registration and "
+"the plugin has been unregistered. Please register your plugin again on the "
+"license info tab using the key from your swiftimpressions.com account. If "
+"you are having problems setting up your account or registering the plugin "
+"please contact support by phone at 208.991.4865 or by email at "
+"njones@swiftimpressions.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:123
+msgid "Swift Post Setup"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:294
+#: admin/swiftpost_admin_functions.php:296
+msgid ""
+"Error: The  Swift Post plugin has not yet been registered. Please enter the "
+"unique license code your received after registering on SwiftImpressions.com. "
+"If you are having problems setting up your account or registering the plugin "
+"please contact support by phone at 208.991.4865 or by email at "
+"njones@swiftimpressions.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:355
+#: admin/swiftpost_admin_functions.php:370
+#: admin/swiftpost_admin_functions.php:376
+msgid ""
+"There was an error disabling your Swift Post. Please try again. If this "
+"problem persists please contact support by phone at 208.991.4865 or by email "
+"at njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:373
+msgid "Swift Posting has been disabled for this post"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:387
+#: admin/swiftpost_admin_functions.php:402
+#: admin/swiftpost_admin_functions.php:408
+msgid ""
+"There was an error pausing your Swift Post. Please try again. If this "
+"problem persists please contact support by phone at 208.991.4865 or by email "
+"at njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:405
+msgid "Swift Posting has been paused for this post"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:446
+msgid ""
+"Invalid Swift Post value - Total Impressions  must be numeric and less than "
+"1,000,000"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:451
+msgid ""
+"Invalid Swift Post value - 1rst box in Impressions per user: must be numeric "
+"and less than 1000"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:455
+msgid ""
+"Invalid Swift Post value - 2nd box in Impressions per user: must be numeric "
+"and less than 1000"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:463
+msgid ""
+"Invalid Swift Post form value: Dates must be in the format yyyy-mm-dd and "
+"the end date must be greater than the start date which must be today or "
+"later. "
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:500
+#: admin/swiftpost_admin_functions.php:515
+#: admin/swiftpost_admin_functions.php:525
+msgid ""
+"There was an error creating/updating your Swift Post. Please try again. If "
+"this problem persists please contact support by phone at 208.991.4865 or by "
+"email at njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:519
+msgid "Swift Post Created/Updated"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:574
+msgid "The plugin was successfully registered to this installation."
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:579
+#: admin/swiftpost_admin_functions.php:583
+msgid ""
+"There was a problem registering your plugin. Please try again. If this "
+"problem persists please contact support by phone at 208.991.4865 or by email "
+"at njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:602
+msgid ""
+"There was a problem releasing your license key. The license key in the form "
+"did not match your currently registered license, please copy your license "
+"key and paste it into the form. If this problem persists please contact "
+"support by phone at 208.991.4865 or by email at njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:617
+#: admin/swiftpost_admin_functions.php:628
+msgid ""
+"There was a problem releasing your license key. Please try again. If this "
+"problem persists please contact support by phone at 208.991.4865 or by email "
+"at njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:625
+msgid "Your license key has been released."
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:661
+msgid ""
+"Error turning off Swift Post. Please try again. If this problem persists "
+"please contact support by phone at 208.991.4865 or by email at "
+"njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:677
+msgid ""
+"There was a problem updating your post. Please try again. If this problem "
+"persists please contact support by phone at 208.991.4865 or by email at "
+"njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:680
+msgid "Swift Post Updated, status set to "
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:685
+msgid ""
+"There was a problem pausing your post. Please try again. If this problem "
+"persists please contact support by phone at 208.991.4865 or by email at "
+"njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:879
+msgid ""
+"There was an error creating/updating your Swift Post AB Test. Please try "
+"again. If this problem persists please contact support by phone at "
+"208.991.4865 or by email at njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:883
+msgid "Swift Post AB Test Created"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:923
+msgid ""
+"Error Changing Swift Post A/B test. Please try again. If this problem "
+"persists please contact support by phone at 208.991.4865 or by email at "
+"njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:939
+msgid ""
+"There was a problem updating the a/b test. Please try again. If this problem "
+"persists please contact support by phone at 208.991.4865 or by email at "
+"njones@swiftimpression.com"
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:942
+msgid "Swift Ad A/B Test Updated, status set to "
+msgstr ""
+
+#: admin/swiftpost_admin_functions.php:946
+msgid ""
+"There was a problem changing your A/B Test. Please try again. If this "
+"problem persists please contact support by phone at 208.991.4865 or by email "
+"at njones@swiftimpression.com"
+msgstr ""
+
+#: swiftpost.php:134
+msgctxt "Status General Name"
+msgid "Swift Post"
+msgstr ""
+
+#: swiftpost.php:135
+#, php-format
+msgid "Swift Post (%s)"
+msgid_plural "Swift Posts (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: swiftpost.php:201
+msgid "Dashboard"
+msgstr ""
+
+#: swiftpost.php:202
+msgid "Reports"
+msgstr ""
+
+#: swiftpost.php:203
+msgid "Split Testing"
+msgstr ""
+
+#: swiftpost.php:204
+msgid "Plugin Setup"
+msgstr ""
+
+#: swiftpost.php:495 swiftpost.php:677
+msgid "&laquo; Back"
+msgstr ""
+
+#: swiftpost.php:496 swiftpost.php:678
+msgid "Next &raquo;"
+msgstr ""
+
+#: swiftpost.php:701
+msgid "Template code field must be filled in if you choose custom temnplate"
+msgstr ""
+
+#: swiftpost.php:706
+msgid "Template name field must be filled in if you choose temnplate name"
+msgstr ""
+
+#: swiftpost.php:718
+msgid "Swift Impressions Settings Updated"
+msgstr ""
+
+#: swiftpost.php:720
+msgid "Invalid Swift Impressions Form"
+msgstr ""
+
+#: swiftpost.php:787 swiftpost.php:821 swiftpost.php:835
+msgid "Update Settings"
+msgstr ""
+
+#: template/swiftpost-full.php:35
+msgid "Pages:"
+msgstr ""
+
+#: template/swiftpost-full.php:39
+msgid "Page"
+msgstr ""
+
+#: template/swiftpost-full.php:51 template/swiftpost-teaser-sideimg.php:29
+#: template/swiftpost-teaser.php:40
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: template/swiftpost-full.php:55 template/swiftpost-teaser.php:44
+msgid "Edit"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "SwiftPost"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://swiftimpressions.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "SwiftPost, native advertising for Wordpress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Swiftimpressions"
+msgstr ""
